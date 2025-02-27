@@ -58,7 +58,7 @@ function Home() {
             <li>
               "If I have to create stories so that the American media actually
               pays attention to the suffering of the American people, then
-              that’s what I’m going to do.""
+              that’s what I’m going to do."
             </li>
           </ul>
         </div>
@@ -86,7 +86,7 @@ function Home() {
           <ul>
             <li>
               "Paul Krugman is one of many weird cat ladies who have too much
-              power in our country. We should change this.""
+              power in our country. We should change this."
             </li>
           </ul>
         </div>
