@@ -23,24 +23,20 @@ function Home() {
             <li>"I’m a Never Trump guy" </li>
             <li> "My God, what an idiot </li>
             <li>
-              {' '}
               "I'm going to vote third party because I can't stomach Trump. I
               think that he's noxious and is leading the white working class to
               a very dark place."
             </li>
             <li>
-              {' '}
               "At the end of the day, do you believe Donald Trump, who always
               tells the truth - just kidding, or do you believe that woman on
               the tape."
             </li>
             <li>
-              {' '}
               "I can't stand Trump because I think he's a fraud, I think he's a
               total fraud who is exploiting these people."
             </li>
             <li>
-              {' '}
               "If I feel like Trump has a really good chance of winning, then I
               might have to hold my nose and vote for Hillary Clinton."
             </li>
@@ -67,12 +63,12 @@ function Home() {
           </ul>
         </div>
         <div className={styles.quotes}>
-          <h2> JD Vance on Opioid Crisis:</h2>
+          <h2> JD Vance on the Opioid Crisis:</h2>
           <ul>
             <li>
               "If you wanted to kill a bunch of MAGA voters in the middle of the
               heartland, how better than to target them and their kids with this
-              deadly fentanyl?""
+              deadly fentanyl?"
             </li>
           </ul>
         </div>
@@ -89,8 +85,8 @@ function Home() {
           <h2> JD Vance on Paul Krugman, Women and Cats:</h2>
           <ul>
             <li>
-              Paul Krugman is one of many weird cat ladies who have too much
-              power in our country. We should change this.
+              "Paul Krugman is one of many weird cat ladies who have too much
+              power in our country. We should change this.""
             </li>
           </ul>
         </div>
