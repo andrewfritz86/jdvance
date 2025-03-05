@@ -1,6 +1,21 @@
 import styles from '../styles/home.module.css';
 import Head from 'next/head';
 
+function Banner() {
+  return (
+    <div className={styles.banner}>
+      <p className={styles.bannerCopy}>
+        <a
+          className={styles.link}
+          href="https://action.aclu.org/give/pm-donate-to-aclu"
+        >
+          Click Here to Help!
+        </a>{' '}
+      </p>
+    </div>
+  );
+}
+
 function Home() {
   return (
     <>
@@ -9,6 +24,7 @@ function Home() {
         <meta name="description" content="Fuck JD Vance" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Banner />
       <main className={styles.main}>
         <h1 className={styles.header}> Fuck JD Vance</h1>
         <div className={styles.imageWrapper}>
