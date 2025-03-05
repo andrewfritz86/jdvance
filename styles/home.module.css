@@ -26,3 +26,59 @@
 .noBullet {
   list-style: none;
 }
+
+
+.banner {
+  height: 50px;
+background: linear-gradient(to right,
+      #FFCCCC,
+      /* Light Red */
+      #FFDD99,
+      /* Light Orange */
+      #FFFF99,
+      /* Light Yellow */
+      #CCFFCC,
+      /* Light Green */
+      #CCEEFF,
+      /* Light Blue */
+      #DDCCFF
+      /* Light Purple */
+    );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bannerCopy {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  color: #4A235A
+}
+
+.link {
+  text-decoration: none;
+  display: inline-block;
+  color: #4A235A;
+  animation: bounce 0.5s infinite ease-in-out;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.blue {
+  color: blue;
+}
+
+@keyframes bounce {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-2px);
+  }
+}
